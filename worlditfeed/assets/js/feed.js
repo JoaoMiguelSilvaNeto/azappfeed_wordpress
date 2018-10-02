@@ -96,7 +96,7 @@ function setFeed(updates)	{
 		
 		images_many.forEach(function (image)	{
 
-			html += '<img src="'+image['IMAGE_URL']+'" alt="'+image['IMAGE_NAME']+'" />';
+			html += '<div><img src="'+image['IMAGE_URL']+'" alt="'+image['IMAGE_NAME']+'" /></div><br>';
 			
 		});
 		
